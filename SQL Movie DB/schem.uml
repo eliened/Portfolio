@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>71e0dc7f-7394-440a-a96b-bf7d98f24fdf</OriginalElement>
+  <nodes>
+    <node x="872.0" y="783.8270116943876">71e0dc7f-7394-440a-a96b-bf7d98f24fdf.VIEW:elienedjar.public.actorstudio</node>
+    <node x="447.0" y="783.8270116943876">71e0dc7f-7394-440a-a96b-bf7d98f24fdf.VIEW:elienedjar.public.movieprodactors</node>
+    <node x="-98.64836061368044" y="307.71988593959577">71e0dc7f-7394-440a-a96b-bf7d98f24fdf.TABLE:elienedjar.public.actors</node>
+    <node x="501.1753820900276" y="319.1100275243544">71e0dc7f-7394-440a-a96b-bf7d98f24fdf.TABLE:elienedjar.public.movies</node>
+    <node x="888.3170430101949" y="-24.0">71e0dc7f-7394-440a-a96b-bf7d98f24fdf.TABLE:elienedjar.public.critics</node>
+    <node x="694.2970170895597" y="122.363157866682">71e0dc7f-7394-440a-a96b-bf7d98f24fdf.TABLE:elienedjar.public.moviecritics</node>
+    <node x="210.0" y="783.8270116943876">71e0dc7f-7394-440a-a96b-bf7d98f24fdf.VIEW:elienedjar.public.actorsmoviesnorole</node>
+    <node x="87.26351073817358" y="297.21988593959577">71e0dc7f-7394-440a-a96b-bf7d98f24fdf.TABLE:elienedjar.public.movieactors</node>
+    <node x="662.843616064791" y="468.01932414881946">71e0dc7f-7394-440a-a96b-bf7d98f24fdf.TABLE:elienedjar.public.productions</node>
+    <node x="0.0" y="783.8270116943876">71e0dc7f-7394-440a-a96b-bf7d98f24fdf.VIEW:elienedjar.public.avgratingactors</node>
+    <node x="662.0" y="783.8270116943876">71e0dc7f-7394-440a-a96b-bf7d98f24fdf.VIEW:elienedjar.public.averagerating</node>
+    <node x="851.128138248564" y="660.8270116943876">71e0dc7f-7394-440a-a96b-bf7d98f24fdf.TABLE:elienedjar.public.studios</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="71e0dc7f-7394-440a-a96b-bf7d98f24fdf.TABLE:elienedjar.public.moviecritics" target="71e0dc7f-7394-440a-a96b-bf7d98f24fdf.TABLE:elienedjar.public.critics" relationship="REFERENCES">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="71e0dc7f-7394-440a-a96b-bf7d98f24fdf.TABLE:elienedjar.public.movieactors" target="71e0dc7f-7394-440a-a96b-bf7d98f24fdf.TABLE:elienedjar.public.movies" relationship="REFERENCES">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="71e0dc7f-7394-440a-a96b-bf7d98f24fdf.TABLE:elienedjar.public.movieactors" target="71e0dc7f-7394-440a-a96b-bf7d98f24fdf.TABLE:elienedjar.public.actors" relationship="REFERENCES">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="71e0dc7f-7394-440a-a96b-bf7d98f24fdf.TABLE:elienedjar.public.productions" target="71e0dc7f-7394-440a-a96b-bf7d98f24fdf.TABLE:elienedjar.public.movies" relationship="REFERENCES">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="71e0dc7f-7394-440a-a96b-bf7d98f24fdf.TABLE:elienedjar.public.productions" target="71e0dc7f-7394-440a-a96b-bf7d98f24fdf.TABLE:elienedjar.public.studios" relationship="REFERENCES">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="71e0dc7f-7394-440a-a96b-bf7d98f24fdf.TABLE:elienedjar.public.moviecritics" target="71e0dc7f-7394-440a-a96b-bf7d98f24fdf.TABLE:elienedjar.public.movies" relationship="REFERENCES">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Circular" zoom="0.9588053553038105" showDependencies="false" x="603.6654135338346" y="452.5" />
+  <SelectedNodes>
+    <node>71e0dc7f-7394-440a-a96b-bf7d98f24fdf.TABLE:elienedjar.public.movieactors</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
